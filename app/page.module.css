@@ -1,0 +1,135 @@
+.sm-btn {
+  margin: 0 20px;
+  height: 38px;
+  width: 38px;
+  border: 2px solid #212121;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-btn img {
+  width: 18px;
+}
+
+.sm-text {
+  margin: 0 20px;
+  height: 38px;
+  width: 38px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-text img {
+  width: 18px;
+}
+
+.header {
+  height: 96px;
+  margin: 8px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.header h5 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.75rem;
+  letter-spacing: 0.05rem;
+  margin: 0 auto;
+}
+
+.sectionFirst {
+  background: var(--yell);
+  position: relative;
+  padding: 0 24px 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.sectionFirst h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 8px 0;
+}
+
+.sectionFirst .pic {
+  height: 200px;
+  width: 100%;
+  background: #f0f1f2;
+  box-sizing: border-box;
+  border-radius: 36px;
+  margin: 0 auto 24px;
+  overflow: hidden;
+}
+.sectionFirst .pic img {
+  width: 100%;
+}
+
+.sectionSecond {
+  background: var(--purp);
+  height: 100vh;
+  padding: 60px 24px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  color: #fff;
+  position: relative;
+}
+
+.sectionSecond::after {
+  content: "";
+  position: absolute;
+  background: var(--dpurp);
+  height: 600px;
+  width: 100px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.sectionSecond .inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 60px;
+}
+
+.sectionSecond h3 {
+  margin: 8px 0;
+  opacity: 1;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+.sectionSecond p {
+  opacity: 1;
+  line-height: 25px;
+}
+
+.sectionSecond .btn-row {
+  opacity: 1;
+}
+
+.sectionSecond a {
+  background: var(--dpurp);
+  width: 100%;
+  border-radius: 18px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 48px;
+}
